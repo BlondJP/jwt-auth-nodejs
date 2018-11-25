@@ -11,18 +11,7 @@ app.use(bodyParser.json())
 require('./security')(app)
 
 // real app code
-app.get('/api/test', function (req, res) {
-  res.json({
-      text : 'protected data'
-    })
-})
-
-app.get('/api/lol', function (req, res) {
-  res.json({
-      text : 'protected lol'
-    })
-})
-
+require('./controller/users')(app)
 
 app.listen(port, function () {
   console.log('Listenning on '+port)
