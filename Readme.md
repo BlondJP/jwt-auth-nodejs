@@ -1,6 +1,13 @@
-npm install
-node index.js
+<h1>JWT Auth</h1>
 
-Crd /api/users
+<h2>Instalation</h2>
+<ul>
+  <li>npm install</li>
+  <li>nodemon index.js</li>
+</ul>
 
-login /api/login
+<h2>Available Feature Urls</h2>
+<ul>
+  <li>POST /api/login</li>
+  <li>CRD /api/users</li>
+</ul>
