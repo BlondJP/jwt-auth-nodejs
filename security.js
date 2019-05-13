@@ -3,11 +3,7 @@ const key = 'notThatSecret42'
 const STATUS_UNAUTHORIZED = 403;
 
 const users = [
-  {id: 1, username: 'jpb.blond@gmail.com', plainPassword: 'test123'},
-  {id: 2, username: 'ml.blond@gmail.com', plainPassword: 'lol444'},
-  {id: 3, username: 'cam.blond@gmail.com', plainPassword: 'lille'},
-  {id: 4, username: 'constance.blond@gmail.com', plainPassword: 'conflans'},
-  {id: 5, username: 'charles.canevy@gmail.com', plainPassword: 'herblay'}
+  
 ];
 
 function userProvider(username, plainPassword) {
